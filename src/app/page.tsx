@@ -89,7 +89,7 @@ export default function Home() {
             {/* Features Section */}
             <section className="bg-gray-200 py-16 px-4">
                 <div className="container mx-auto">
-                    <h2 className="text-3xl font-semibold mb-8 text-center">How We Can Help You</h2>
+                    <h2 className="text-3xl font-semibold mb-8 text-center md:text-white">How We Can Help You</h2>
                     <div className="flex flex-col lg:flex-row justify-between">
                         {/* Feature 1 */}
                         <div className="w-full lg:w-1/3 bg-white rounded-lg shadow-lg p-6 mb-4 lg:mb-0">
