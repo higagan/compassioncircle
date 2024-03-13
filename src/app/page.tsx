@@ -1,8 +1,7 @@
 'use client'
 
 import { useState } from 'react';
-import Head from 'next/head';
-
+import Image from 'next/image';
 export default function Home() {
     const [email, setEmail] = useState('');
     const [supportCategory, setSupportCategory] = useState('');
@@ -44,7 +43,7 @@ export default function Home() {
                 <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between">
                     <div className="lg:w-1/2 mb-8 lg:mb-0">
                         <h1 className="text-4xl lg:text-6xl font-bold leading-tight mb-4">Invest in Your Emotional Health</h1>
-                        <p className="text-lg lg:text-xl text-gray-700 mb-6">Sometimes, all you need is someone to listen. We're here for you.</p>
+                        <p className="text-lg lg:text-xl text-gray-700 mb-6">Sometimes, all you need is someone to listen. We are here for you.</p>
                         <form id="contactForm" className="flex flex-col lg:flex-row" onSubmit={handleSubmit}>
                             <input
                                 type="email"
@@ -77,7 +76,7 @@ export default function Home() {
                         )}
                     </div>
                     <div className="lg:w-1/2">
-                        <img
+                        <Image 
                             src="https://images.unsplash.com/photo-1564682895970-0dbb72e18d97"
                             alt="Illustration"
                             className="rounded-lg shadow-lg"
