@@ -52,7 +52,7 @@ export default function Home() {
                                 placeholder="Your Email"
                                 value={email}
                                 onChange={(e) => setEmail(e.target.value)}
-                                className="bg-white border border-gray-400 rounded-lg py-3 px-4 mb-2 lg:mb-0 lg:mr-2 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent transition duration-300 ease-in-out"
+                                className="bg-white border text-black border-gray-400 rounded-lg py-3 px-4 mb-2 lg:mb-0 lg:mr-2 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent transition duration-300 ease-in-out"
                             />
                             <select
                                 name="support_category"
