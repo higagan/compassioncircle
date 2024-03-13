@@ -78,7 +78,8 @@ export default function Home() {
                     <div className="lg:w-1/2">
                         <Image 
                             src="https://images.unsplash.com/photo-1564682895970-0dbb72e18d97"
-                            alt="Illustration"
+                            alt="Phone a friend"
+                            width={600} height={800}
                             className="rounded-lg shadow-lg"
                         />
                     </div>
