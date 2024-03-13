@@ -42,7 +42,7 @@ export default function Home() {
             <section className="py-16 px-4">
                 <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between">
                     <div className="lg:w-1/2 mb-8 lg:mb-0">
-                        <h1 className="text-4xl lg:text-6xl font-bold leading-tight mb-4">Invest in Your Emotional Health</h1>
+                        <h1 className="text-4xl lg:text-6xl font-bold leading-tight mb-4 text-gray-800 md:text-white">Invest in Your Emotional Health</h1>
                         <p className="text-lg lg:text-xl text-gray-700 mb-6">Sometimes, all you need is someone to listen. We are here for you.</p>
                         <form id="contactForm" className="flex flex-col lg:flex-row" onSubmit={handleSubmit}>
                             <input
@@ -57,7 +57,7 @@ export default function Home() {
                                 name="support_category"
                                 value={supportCategory}
                                 onChange={(e) => setSupportCategory(e.target.value)}
-                                className="bg-white border border-gray-400 rounded-lg py-3 px-4 mb-2 lg:mb-0 lg:mr-2 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent transition duration-300 ease-in-out"
+                                className="bg-white border text-gray-600 border-gray-400 rounded-lg py-3 px-4 mb-2 lg:mb-0 lg:mr-2 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent transition duration-300 ease-in-out"
                             >
                                 <option value="" disabled>Select Support Category</option>
                                 <option value="24/7 Support">24/7 Support</option>
